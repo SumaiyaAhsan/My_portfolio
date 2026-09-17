@@ -1,0 +1,256 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 18px 8%;
+
+    background-color: rgb(241, 218, 218);
+}
+
+
+
+/* Navigation links */
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin-left: auto;
+}
+
+/* Links */
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Hire Me button */
+.hire-btn {
+    text-decoration: none;
+    color: rgb(11, 11, 11);
+    font-weight: bold;
+    background-color: rgb(142, 193, 231);
+    padding: 15px 20px;
+    border-radius: 6px;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+
+
+
+/*Hero Section*/
+
+.hero {
+    min-height: 90vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 60px 8%;
+    gap: 100px;
+    background-color: rgb(241, 218, 218);
+}
+
+
+/* Hero Text */
+
+..hero-content {
+    max-width: 650px;
+    margin-left: 40px;
+}
+
+.intro {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.hero-content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.hero-description {
+    font-size: 20px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+
+/* Buttons */
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.primary-btn {
+    background-color: rgb(236, 148, 94);
+    color: rgb(238, 243, 237);
+}
+
+.secondary-btn {
+    background-color: rgb(11, 9, 8);
+    color: rgb(238, 243, 237);
+}
+
+
+/* Button Hover */
+
+.primary-btn:hover {
+    background-color: rgb(162, 222, 93);
+    color: rgb(17, 16, 16);
+    font-weight: bold;
+}
+
+.secondary-btn:hover {
+    background-color: rgb(162, 222, 93);
+    color: rgb(17, 16, 16);
+    font-weight: bold;
+}
+
+
+/* Hero Image */
+
+.hero-image img {
+    width: 650px;
+    height: 650px;
+
+    object-fit: cover;
+
+    border-radius: 100%;
+}
+
+
+
+/* About Section */
+
+.about {
+    padding: 110px 8%;
+    background-color: white;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* Top Part */
+
+.about-top {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 60px;
+    align-items: start;
+}
+
+.section-subtitle {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    
+    border-bottom: 3px solid black;
+    padding-left: 15px;
+}
+
+.about-top h2 {
+    font-size: 62px;
+    line-height: 1;
+    margin: 0;
+}
+
+.about-top h2 span {
+    font-style: italic;
+    font-weight: 380;
+}
+
+
+/* Description */
+
+.about-description {
+    padding-top: 35px;
+    max-width: 600px;
+}
+
+.about-description p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-description .about-intro {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+/* Cards */
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.about-card {
+    padding: 30px;
+    min-height: 160px;
+
+    border: 1px solid #222;
+    background-color: #f1e1c9;
+    border-radius: 18px;
+    box-shadow: 0 18px 25px rgba(12, 0, 0, 0.25);
+    transition: 0.3s;
+}
+
+.about-card span {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.about-card h3 {
+    font-size: 17px;
+    margin: 25px 0 12px;
+}
+
+.about-card p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+/* Hover Effect */
+
+.about-card:hover {
+    transform: translateY(-8px);
+    background-color:rgb(241, 218, 218);
+}
